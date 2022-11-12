@@ -19,10 +19,10 @@ def bsq_eq(a, b, c):
     print(f"x4 = {-x2 if not numpy.iscomplex([x2])[0] else None}")
 
 
-# 5x^2 + 8x + 2 = 0
+print("5x^2 + 8x + 2 = 0")
 sq_eq(5, 8, 2)
 
 print()
 
-# -5x^4 + 8x^2 + 2 = 0
+print("-5x^4 + 8x^2 + 2 = 0")
 bsq_eq(-5, 8, 2)
